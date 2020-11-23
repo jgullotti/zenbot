@@ -12,7 +12,7 @@ mongodb:
   image: mongo:latest
   volumes_from:
     - mongodb-data
-  command: mongod --smallfiles --bind_ip=0.0.0.0 --logpath=/dev/null
+  command: mongod --bind_ip=0.0.0.0 --logpath=/dev/null
 
 mongodb-data:
   image: mongo:latest
