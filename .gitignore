@@ -13,7 +13,7 @@ github
 config.js
 config.patch
 data/*
-# conf.js
+conf.js
 conf-*
 conf_*
 !conf-sample.js
